@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>book-library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container" id="container">
+        <div class="headsection">
+            <h1>Book Library</h1>
+        </div>
+        <div class="tablesection">
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            <h1>ID</h1>
+                        </td>
+                        <td>
+                            <h1>BOOK_NAME</h1>
+                        </td>
+                        <td>
+                            <h1>BOOK_AUTHOR</h1>
+                        </td>
+                        <td>
+                            <h1>READ</h1>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+        <div class="button">
+            <button id="form-visible"><p>click to add a book</p></button>
+        </div>
+        <div class="form" id="form">
+          <form>
+            <input type="text" id="name" placeholder="name">
+            <br>
+            <input type="text" id="author" placeholder="author">
+            <br>
+            <input type="text" id="read" placeholder="read">
+            <br>
+            <button class="form-submit" id="submit">submit</button>
+          </form>
+          
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

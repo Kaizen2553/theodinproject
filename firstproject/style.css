@@ -2,3 +2,72 @@
     margin:0;
     padding:0;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button{
+    padding: 10px;
+
+}
+
+button{
+    background: none;
+    border-radius:0%;
+    padding: 10px;
+    border-color:red;
+}
+
+button:hover{
+    background-color:antiquewhite;
+}
+
+.form{
+    display:none;
+    background-color:#ccc;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input:hover{
+    background-color: #ccc;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-submit{
+   border-radius: 10px;
+} 
