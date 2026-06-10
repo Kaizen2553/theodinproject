@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="app">
+        <div class="projects">
+            <div class="title">
+               <h1>To-do-list</h1>
+            </div>
+            
+            <div class="project-list">
+
+            </div>
+
+            <!-- Minimal UI additions for project actions -->
+            <div style="padding: 10px; display: flex; flex-direction: column; gap: 5px; border-top: 1px solid #ccc; margin-top: auto;">
+                <input type="text" id="new-project-input" placeholder="New Project name..." style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+                <button id="add-project-btn" style="padding: 5px; cursor: pointer; background: rgb(242, 159, 159); border: none; font-weight: bold; border-radius: 5px;">Add Project</button>
+                <button id="delete-project-btn" style="padding: 5px; cursor: pointer; background: rgb(242, 159, 159); border: none; font-weight: bold; border-radius: 5px;">Delete Current Project</button>
+            </div>
+        </div>
+        <div class="todos">
+            <!-- Minimal UI additions for adding tasks -->
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-right: 20px;">
+                <h2 class="project-title"></h2>
+                <button id="add-todo-btn" style="padding: 10px 15px; cursor: pointer; font-family: sans-serif; font-weight: bold; border-radius: 10px; background: orange; border: none; color: white;">+ Add Todo</button>
+            </div>
+
+            <div class="todo-list">
+                 
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay  hidden">
+        <div class="modal">
+           
+        </div>
+    </div>
+    
+ <script type="module" src="script.js"></script>   
+</body>
+</html>
